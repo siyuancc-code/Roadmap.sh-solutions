@@ -197,6 +197,14 @@ section h2 {
     padding: 10px 0;
   }
 
+  .sections {
+    flex-direction: column;
+  }
+
+  .reviewFlex {
+    flex-direction: column;
+  }
+
   .footer {
     padding: 40px;
   }
