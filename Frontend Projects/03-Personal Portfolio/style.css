@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  color: black;
+  text-decoration: none;
+}
+
+a:hover {
+  color: darkgreen;
+}
+
+/* header */
+header {
+  padding: 15px;
+  display: flex;
+  justify-content: space-between;
+}
+
+header nav {
+  justify-content: flex-end;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  width: 100%;
+}
+
+header nav ul li {
+  padding: 0 15px;
+  font-weight: 700;
+}
+
+/* main */
+main {}
+
+.title {
+  margin-top: 20px;
+  margin-bottom: 30px;
+}
+
+.title h1 {
+  margin-bottom: 15px;
+  text-align: center;
+}
+
+.title p {
+  text-align: center;
+  color: gray;
+}
+
+.sections {
+  display: flex;
+  border-top: 2px solid #000;
+}
+
+.sections li {
+  list-style-type: none;
+}
+
+section {
+  flex: 1;
+  padding: 25px;
+  border: 2px solid #000;
+
+}
+
+section h2 {
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.projects {
+  padding: 25px 0;
+}
+
+.projects ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.projects li {
+  /* flex: 1; */
+  padding: 10px;
+  border-bottom: 1px solid #000;
+  font-size: 18px;
+}
+
+.projects li:last-child {
+  border-bottom: none;
+}
+
+.work {
+  margin-bottom: 20px;
+}
+
+.work h3 {
+  font-style: italic;
+  font-weight: normal;
+  margin-bottom: 15px;
+}
+
+/* footer */
