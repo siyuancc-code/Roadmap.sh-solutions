@@ -10,4 +10,4 @@ This repository contains solutions for various projects from Roadmap.sh. Each pr
 - To view a project, open the corresponding HTML file in your browser.
 
 ## Project Pages
-You can explore the projects directly via this repository on GitHub.
+You can explore the repository here: [Roadmap.sh-solutions on GitHub](https://github.com/siyuancc-code/Roadmap.sh-solutions)
