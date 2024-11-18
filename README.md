@@ -2,8 +2,11 @@
 
 This repository contains solutions for various projects from Roadmap.sh. Each project is organized in its respective folder.
 
-## Projects
-- **Single-Page CV**: A simple single-page CV created using HTML. This project showcases skills, education, and career history in a clean, semantic manner.
+## ProjectsURL:
+01: https://roadmap.sh/projects/single-page-cv
+02: https://roadmap.sh/projects/basic-html-website
+03: https://roadmap.sh/projects/portfolio-website
+04: https://roadmap.sh/projects/changelog-component
 
 ## How to use
 - Each project is located in its respective folder. For example, the Single-Page CV project is in the `Single-Page CV` folder.
