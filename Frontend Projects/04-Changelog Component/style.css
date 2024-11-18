@@ -1,0 +1,119 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  margin: 50px;
+  padding: 30px;
+  min-height: 100vh;
+  border: 2px solid gray;
+  border-radius: 50px;
+}
+
+header,
+footer {
+  padding: 20px;
+  text-align: center;
+}
+
+header h1 {
+  margin-bottom: 10px;
+}
+
+header p {
+  margin-bottom: 40px;
+  color: #777;
+}
+
+main {
+  padding: 40px 20px;
+  margin: 0 auto;
+}
+
+/* changeLog */
+.changeLog {
+  position: relative;
+  margin-top: 20px;
+}
+
+.change {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+  /* position: relative; */
+}
+
+.change p {
+  font-size: 18px;
+}
+
+.timeStamp {
+  flex: 1;
+  width: 200px;
+  padding-right: 20px;
+  text-align: right;
+  color: #b0b0b0;
+  font-family: "Edu AU VIC WA NT Pre", sans-serif;
+}
+
+.dot {
+  display: inline-block;
+  position: relative;
+  margin-right: 20px;
+  width: 12px;
+  height: 12px;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.dot::before,
+.dot::after {
+  content: '';
+  position: absolute;
+  width: 2px;
+  background-color: black;
+  left: 50%;
+  transform: translate(-50%, 0);
+  z-index: 0;
+}
+
+.dot::before {
+  top: -30px;
+  /* 向上伸出 */
+  height: 30px;
+  /* 线的长度 */
+}
+
+.dot::after {
+  bottom: -30px;
+  /* 向下伸出 */
+  height: 30px;
+  /* 线的长度 */
+}
+
+.event {
+  flex: 1;
+  text-align: left;
+}
+
+/* footer */
+footer {
+  min-width: 100%;
+}
+
+button {
+  margin: 0 auto;
+  padding: 10px 20px;
+  background-color: #000;
+  color: #fff;
+  font-size: 16px;
+  border-radius: 10px;
+  cursor: pointer;
+}
+
+footer button:hover {
+  background-color: #1dc779;
+}
