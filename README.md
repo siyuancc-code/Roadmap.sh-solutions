@@ -7,6 +7,7 @@ This repository contains solutions for various projects from Roadmap.sh. Each pr
 02: https://roadmap.sh/projects/basic-html-website
 03: https://roadmap.sh/projects/portfolio-website
 04: https://roadmap.sh/projects/changelog-component
+05: https://roadmap.sh/projects/testimonial-cards
 
 ## How to use
 - Each project is located in its respective folder. For example, the Single-Page CV project is in the `Single-Page CV` folder.
