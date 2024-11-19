@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  padding-top: 30px;
+  max-width: 520px;
+  height: 100vh;
+  margin: 0 auto;
+}
+
+header {
+  min-height: 80px;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+header #datepicker-input {
+  flex: 1;
+  padding: 0 30px;
+  border: 2px solid #000;
+  outline: none;
+  height: 80px;
+  line-height: 80px;
+  font-size: 30px;
+}
+
+header input::placeholder {
+  font-size: 30px;
+  letter-spacing: 6px;
+}
+
+header button {
+  background: none;
+  border: none;
+  height: 80px;
+  border: 2px solid #000;
+  background: url(./Date.png) no-repeat center/cover;
+  width: 80px;
+  cursor: pointer;
+}
+
+button img {
+  border: 1px solid #000;
+  width: 80px;
+  height: 80px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid #000;
+}
+
+.datepicker-header {
+  padding-top: 20px;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  height: 50px;
+}
+
+.datepicker-header button {
+  height: 100%;
+  width: 50px;
+  background: none;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.week {
+  padding: 20px 30px 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+span {
+  font-weight: 700;
+}
+
+.dategird {
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 0;
+}
+
+.day {
+  border: 1px solid #000;
+  height: 75px;
+  text-align: center;
+  line-height: 75px;
+  font-size: 30px;
+}
+
+.day:hover {
+  background-color: #000;
+  color: #fff;
+  cursor: pointer;
+}
